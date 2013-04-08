@@ -5,9 +5,9 @@ class Zlib < Formula
   url 'http://zlib.net/zlib-1.2.7.tar.gz'
   sha1 '4aa358a95d1e5774603e6fa149c926a80df43559'
 
-  keg_only :provided_by_osx
-
   version '1.2.7-boxen1'
+
+  keg_only :provided_by_osx
 
   option :universal
 
