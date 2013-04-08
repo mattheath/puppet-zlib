@@ -13,6 +13,7 @@ class zlib {
 
   homebrew::formula { 'zlib':
     source => 'puppet:///modules/zlib/brews/zlib.rb',
+    before => Package['boxen/brews/zlib'] ;
   }
 
   package { 'boxen/brews/zlib':
